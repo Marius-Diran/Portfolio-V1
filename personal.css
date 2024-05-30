@@ -2,15 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body{
   background-color: rgb(0,0,0);
 }
 
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 4vh 2vw;
+}
+
 .logo-container{
-  width: 8%;
+  width: 6%;
   height: 5vh;
+  transition: all .4s ease;
+}
+
+.logo-container:hover{
+  transform: rotate(1turn);
 }
 
 .logo{
@@ -25,29 +37,27 @@ body{
   cursor: pointer;
   width: 3%;
   height: 3.5vh;
-  margin: 10vh auto;
   transform: rotate(3.142rad);
 }
 
 .bar1{
-  /* display: block; */
   width: 100%;
-  height: 0.5vh;
-  /* margin: 1.2vh auto; */
+  height: 0.7vh;
   background-color: rgb(255,255,255);
+  border-radius: 5px;
 }
 
 .bar2{
-  /* display: block; */
   width: 60%;
-  height: 0.5vh;
-  /* margin: 1.2vh auto; */
+  height: 0.7vh;
   background-color: rgb(255,255,255);
+  border-radius: 5px;
 }
 
 .bar3{
   width: 30%;
-  height: 0.5vh;
+  height: 0.7vh;
   background-color: rgb(255,255,255);
+  border-radius: 5px;
 }
 
