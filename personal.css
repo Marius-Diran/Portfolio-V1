@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(0,0,0);
+}
+
+.logo-container{
+  width: 8%;
+  height: 5vh;
+}
+
+.logo{
+  width: 100%;
+  height: fit-content;
+}
+
+.hamburger-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 3%;
+  height: 3.5vh;
+  margin: 10vh auto;
+  transform: rotate(3.142rad);
+}
+
+.bar1{
+  /* display: block; */
+  width: 100%;
+  height: 0.5vh;
+  /* margin: 1.2vh auto; */
+  background-color: rgb(255,255,255);
+}
+
+.bar2{
+  /* display: block; */
+  width: 60%;
+  height: 0.5vh;
+  /* margin: 1.2vh auto; */
+  background-color: rgb(255,255,255);
+}
+
+.bar3{
+  width: 30%;
+  height: 0.5vh;
+  background-color: rgb(255,255,255);
+}
+
