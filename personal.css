@@ -18,7 +18,8 @@ nav{
   display: flex;
   justify-content: space-between;
   margin: 3vh 2vw;
-  border: 1px solid red;
+  width: 96%;
+  z-index: 100;
 }
 
 .logo-container{
@@ -110,14 +111,13 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
   height: 100vh;
-  margin: -13vh 0 0 0;
   color: rgb(255,255,255);
   list-style: none;
   width: 100%;
-  z-index: 10;
   position: relative;
+  transition: all 350ms ease-in-out;
+  transform: translateY(-100%);
 }
 
 .nav-items li{
@@ -135,4 +135,8 @@ nav{
 
 .nav-items a{
   text-decoration: none;
+}
+
+.nav-items.active{
+  transform: translateY(0);
 }
