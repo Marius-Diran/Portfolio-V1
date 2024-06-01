@@ -22,6 +22,11 @@ nav{
   z-index: 100;
 }
 
+.container{
+  width: 98%;
+  margin: 0 auto;
+}
+
 .logo-container{
   width: 6%;
   height: 5vh;
@@ -118,6 +123,8 @@ nav{
   position: relative;
   transition: all 350ms ease-in-out;
   transform: translateY(-100%);
+  z-index: 50;
+  background-color: rgb(0,0,0);
 }
 
 .nav-items li{
@@ -139,4 +146,52 @@ nav{
 
 .nav-items.active{
   transform: translateY(0);
+}
+
+.home-sec_flex{
+  display: flex;
+  color: white;
+  margin: -75vh auto;
+  border: 1px solid green;
+}
+
+.write-up_sec{
+  width: 60%;
+  border: 1px solid red;
+}
+
+.write-up_sec h1{
+  font-size: 2.5rem;
+  margin: 15vh 8vw 0;
+  word-spacing: 0.3rem;
+}
+
+.marius{
+  color: rgb(255, 36, 36);
+  text-shadow: 0 0 25px rgb(255, 36, 36);
+}
+
+.write-up_sec h2{
+  font-size: 1.8rem;
+  margin: 0.5vh 8vw 0;
+  word-spacing: 0.3rem;
+}
+
+.auto-type{
+  color: rgb(255, 36, 36);
+  text-shadow: 0 0 25px rgb(255, 36, 36);
+}
+
+.img-sec{
+  width: 40%;
+  border: 1px solid blue;
+}
+
+.home-img_container{
+  width: 68%;
+  margin: 0 0 0 10vw;
+}
+
+.home-img{
+  width: 100%
 }
