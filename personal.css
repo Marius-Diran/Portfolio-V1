@@ -22,9 +22,9 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 238, 238);
+  background-color: rgb(255, 247, 247);
   z-index: 120;
-  transition: opacity 0.75s, visibility 0.75s;
+  transition: opacity 4s, visibility 4s;
 }
 
 .loader-hidden{
@@ -37,7 +37,8 @@ body{
   width: 75px;
   height: 75px;
   border: 15px solid rgb(221, 221, 221);
-  border-top-color: rgb(116, 73, 245);
+  border-top-color: rgb(255, 36, 36);
+  box-shadow: 0 0 25px rgb(255, 36, 36);
   border-radius: 50%;
   animation: loading 0.75s ease infinite;
 }
