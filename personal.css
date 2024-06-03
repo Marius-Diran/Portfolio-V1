@@ -234,10 +234,17 @@ nav{
   color: rgba(255,255,255,0.8);
   width: 49%;
   font-size: 1.1rem;
-  margin: 3vh 8vw 0;
+  margin: 4vh 8vw 0;
   word-spacing: 0.3rem;
   line-height: 3.4vh;
   font-weight: 300;
+}
+
+.social-icons{
+  width: 13%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5vh 8vw 0;
 }
 
 .img-sec{
