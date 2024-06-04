@@ -190,3 +190,12 @@ nav{
 .nav-items.active{
   transform: translateY(0);
 }
+
+.about-me_sec{
+  border: 1px solid red;
+  height: 100vh;
+}
+
+.intro-text{
+  color: rgb(255,255,255);
+}

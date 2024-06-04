@@ -1,5 +1,5 @@
 const navBar = document.querySelector('.hamburger-menu');
-const navItems = document.querySelector('.nav-items');
+const navItems = document.querySelector('.nav-container');
 
 navBar.addEventListener('click', () => {
   navBar.classList.toggle('active');
