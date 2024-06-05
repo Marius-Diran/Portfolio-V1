@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 *{
   margin: 0;
@@ -7,9 +7,22 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+  width: 6px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(255, 84, 84, 0.1);
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgb(255, 36, 36);
+  border-radius: 10px;
+}
+
 body{
-  background-color: rgb(0, 0, 0);
-  font-family: 'Shippori Antique', sans-serif;
+  background-color: rgb(28, 28, 34);
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .loader{
@@ -23,7 +36,7 @@ body{
   align-items: center;
   background-color: rgb(255, 247, 247);
   z-index: 120;
-  transition: opacity 18s, visibility 4.9s;
+  transition: opacity 18s, visibility 4.8s;
   animation: loadout 5s ease-out;
 }
 
@@ -68,6 +81,12 @@ nav{
   margin: 4vh 2vw;
   width: 96%;
   z-index: 100;
+  top: 0;
+}
+
+.container{
+  width: 98%;
+  margin: 0 auto;
 }
 
 .logo-container{
@@ -154,6 +173,19 @@ nav{
   width: 100%;
 }
 
+.nav-container{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(28, 28, 34);
+  transition: all .8s ease-in-out;
+  transform: translateY(-100%);
+  visibility: hidden;
+  color: rgb(255,255,255);
+  z-index: 50;
+}
+
 .nav-items{
   display: flex;
   flex-direction: column;
@@ -162,12 +194,7 @@ nav{
   height: 100vh;
   color: rgb(255,255,255);
   list-style: none;
-  width: 100%;
-  position: relative;
-  transition: all .8s ease-in-out;
-  transform: translateY(-100%);
-  z-index: 50;
-  background-color: rgb(0,0,0);
+  background-color: rgb(28, 28, 34);
 }
 
 .nav-items li{
@@ -187,15 +214,65 @@ nav{
   text-decoration: none;
 }
 
-.nav-items.active{
+.nav-container.active{
   transform: translateY(0);
+  visibility: visible;
 }
 
 .about-me_sec{
-  border: 1px solid red;
-  height: 100vh;
+  margin: 20vh 0 0;
 }
 
 .intro-text{
   color: rgb(255,255,255);
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.sub-intro_text{
+  color: rgba(255,255,255, 0.7);
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1vh 0 0;
+}
+
+.span-me{
+  color: rgba(255, 36, 36, 0.7);
+  text-shadow: 0 0 15px rgba(255, 36, 36, 0.7);
+}
+
+.aboutme-container{
+  display: flex;
+  margin: 10vh 0 0;
+}
+
+.aboutme-writeup{
+  width: 50%;
+  border: 1px solid red;
+  margin: 0 0 0 8vw;
+}
+
+.aboutme-writeup h1{
+  text-align: center;
+  color: rgb(255,255,255);
+  font-size: 2.4rem;
+}
+
+.aboutme-writeup p{
+  color: rgba(255,255,255, 0.7);
+  line-height: 4vh;
+}
+
+.aboutme-writeup .p-1{
+  margin: 5vh 0 0;
+}
+
+.my-avatar{
+  width: 35%;
+  margin: 0 0 0 3vw;
+}
+
+.avatar{
+  width: 100%;
+  border-radius: 10px;
 }
