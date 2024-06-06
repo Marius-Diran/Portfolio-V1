@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
 
 *{
   margin: 0;
@@ -36,8 +37,7 @@ body{
   align-items: center;
   background-color: rgb(255, 247, 247);
   z-index: 120;
-  transition: opacity 18s, visibility 4.8s;
-  animation: loadout 5s ease-out;
+  transition: opacity 5s, visibility 5s;
 }
 
 .loader-hidden{
@@ -53,7 +53,7 @@ body{
   border-top-color: rgb(255, 36, 36);
   box-shadow: 0 0 25px rgb(255, 36, 36);
   border-radius: 50%;
-  animation: loading 0.75s ease infinite;
+  animation: loading 0.75s ease-out infinite;
 }
 
 @keyframes loading {
@@ -62,15 +62,6 @@ body{
   }
   to{
     transform: rotate(1turn);
-  }
-}
-
-@keyframes loadout {
-  from{
-    transform: translateY(0);
-  }
-  to{
-    transform: translateY(-100vh);
   }
 }
 
@@ -495,4 +486,18 @@ nav{
   color: rgba(255,255,255, 0.7);
   text-align: center;
   padding: 0.4vh 0;
+}
+
+.footer{
+  background-color: rgba(255, 36, 36, 0.5);
+  height: 10vh;
+  font-family: "Shippori Antique", sans-serif;
+  text-align: center;
+}
+
+.footer-contents h1{
+  font-size: 1.2rem;
+  padding: 4vh 0 0;
+  font-weight: 300;
+  color: rgba(255,255,255, 0.7);
 }
