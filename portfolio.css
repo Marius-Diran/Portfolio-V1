@@ -212,7 +212,7 @@ nav{
 }
 
 .portfolio-sec{
-  margin: 20vh 0 0;
+  margin: 15vh 0 0;
 }
 
 .portfolio-contents h1{
@@ -235,4 +235,64 @@ nav{
 
 .work-txt{
   color: rgba(255, 36, 36, 0.7);
+}
+
+.portfolio-flexed_div{
+  margin: 15vh 0 0;
+}
+
+.project-1{
+  display: flex;
+}
+
+.project1-imgbox{
+  width: 40%;
+  margin: 0 0 0 12vw;
+}
+
+.project1-img{
+  width: 100%
+}
+
+.project1-writeup{
+  width: 40%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  height: 41vh;
+  margin: 15vh 0 0 -2vw;
+}
+
+.project1-writeup h1{
+  font-size: 2rem;
+  text-align: start;
+  margin: 8vh 0 0 3vw;
+  color: rgb(255, 36, 36);
+  text-shadow: 0 0 15px rgb(255, 36, 36);
+}
+
+.project1-writeup p{
+  color: rgba(255, 255, 255, 0.7);
+  margin: 4vh 0 0 3vw;
+  width: 85%;
+}
+
+.project1-btn{
+  margin: 6vh 0 0 17vw;
+  width: 20%;
+  height: 5vh;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid red;
+}
+
+.project1-btn a{
+  text-decoration: none;
+  color: rgba(255, 36, 36, 0.7);
+  font-size: 0.8rem;
+  transition: all 300ms ease-in;
+}
+
+.project1-btn:hover a{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  font-weight: bold;
 }
