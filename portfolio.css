@@ -252,7 +252,7 @@ nav{
 }
 
 .project1-img{
-  width: 100%
+  width: 100%;
 }
 
 .project1-writeup{
@@ -309,7 +309,7 @@ nav{
 }
 
 .project2-img{
-  width: 100%
+  width: 100%;
 }
 
 .project2-writeup{
@@ -366,7 +366,7 @@ nav{
 }
 
 .project3-img{
-  width: 100%
+  width: 100%;
 }
 
 .project3-writeup{
@@ -407,6 +407,63 @@ nav{
 }
 
 .project3-btn:hover a{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.project-4{
+  display: flex;
+  margin: 20vh 0 0;
+}
+
+.project4-imgbox{
+  width: 40%;
+  margin: 0 0 0 12vw;
+}
+
+.project4-img{
+  width: 100%;
+}
+
+.project4-writeup{
+  width: 40%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  height: 38.5vh;
+  margin: 15vh 0 0 -2vw;
+}
+
+.project4-writeup h1{
+  font-size: 2rem;
+  text-align: start;
+  margin: 8vh 0 0 3vw;
+  color: rgb(255, 36, 36);
+  text-shadow: 0 0 15px rgb(255, 36, 36);
+}
+
+.project4-writeup p{
+  color: rgba(255, 255, 255, 0.7);
+  margin: 4vh 0 0 3vw;
+  width: 85%;
+}
+
+.project4-btn{
+  margin: 6vh 0 0 17vw;
+  width: 20%;
+  height: 5vh;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid red;
+}
+
+.project4-btn a{
+  text-decoration: none;
+  color: rgba(255, 36, 36, 0.7);
+  font-size: 0.8rem;
+  transition: all 300ms ease-in;
+}
+
+.project4-btn:hover a{
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.9rem;
   font-weight: bold;
