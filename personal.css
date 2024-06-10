@@ -313,4 +313,9 @@ nav{
 .home-img{
   width: 100%;
   box-shadow: 0 0 10px rgb(255, 36, 36);
+  transition: all 0.4s ease-in-out;
+}
+
+.home-img:hover{
+  box-shadow: 0 0 30px rgb(255, 36, 36);
 }
