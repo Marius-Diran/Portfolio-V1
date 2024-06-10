@@ -239,7 +239,7 @@ nav{
 
 .portfolio-flexed_div{
   margin: 15vh 0 0;
-  height: 400vh;
+  height: 520vh;
 }
 
 .project-1{
@@ -524,4 +524,132 @@ nav{
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.9rem;
   font-weight: bold;
+}
+
+.project-6{
+  display: flex;
+  margin: 20vh 0 0;
+}
+
+.project6-imgbox{
+  width: 40%;
+  margin: 0 0 0 12vw;
+}
+
+.project6-img{
+  width: 100%;
+}
+
+.project6-writeup{
+  width: 40%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  height: 40vh;
+  margin: 15vh 0 0 -2vw;
+}
+
+.project6-writeup h1{
+  font-size: 2rem;
+  text-align: start;
+  margin: 8vh 0 0 3vw;
+  color: rgb(255, 36, 36);
+  text-shadow: 0 0 15px rgb(255, 36, 36);
+}
+
+.project6-writeup p{
+  color: rgba(255, 255, 255, 0.7);
+  margin: 4vh 0 0 3vw;
+  width: 85%;
+}
+
+.project6-btn{
+  margin: 6vh 0 0 17vw;
+  width: 20%;
+  height: 5vh;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid red;
+}
+
+.project6-btn a{
+  text-decoration: none;
+  color: rgba(255, 36, 36, 0.7);
+  font-size: 0.8rem;
+  transition: all 300ms ease-in;
+}
+
+.project6-btn:hover a{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.project-7{
+  display: flex;
+  margin: 20vh 0 0;
+}
+
+.project7-imgbox{
+  width: 40%;
+  margin: 0 0 0 12vw;
+}
+
+.project7-img{
+  width: 100%;
+}
+
+.project7-writeup{
+  width: 40%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  height: 40vh;
+  margin: 15vh 0 0 -2vw;
+}
+
+.project7-writeup h1{
+  font-size: 2rem;
+  text-align: start;
+  margin: 8vh 0 0 3vw;
+  color: rgb(255, 36, 36);
+  text-shadow: 0 0 15px rgb(255, 36, 36);
+}
+
+.project7-writeup p{
+  color: rgba(255, 255, 255, 0.7);
+  margin: 4vh 0 0 3vw;
+  width: 85%;
+}
+
+.project7-btn{
+  margin: 6vh 0 0 17vw;
+  width: 20%;
+  height: 5vh;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid red;
+}
+
+.project7-btn a{
+  text-decoration: none;
+  color: rgba(255, 36, 36, 0.7);
+  font-size: 0.8rem;
+  transition: all 300ms ease-in;
+}
+
+.project7-btn:hover a{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.footer{
+  background-color: rgba(255, 36, 36, 0.5);
+  height: 10vh;
+  font-family: "Shippori Antique", sans-serif;
+  text-align: center;
+}
+
+.footer-contents h1{
+  font-size: 1.2rem;
+  padding: 4vh 0 0;
+  font-weight: 300;
+  color: rgba(255,255,255, 0.7);
 }
