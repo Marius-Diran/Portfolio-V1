@@ -210,3 +210,42 @@ nav{
   transform: translateY(0);
   visibility: visible;
 }
+
+.contact-sec{
+  margin: 20vh 0;
+}
+
+.contact-sec h1{
+  color: rgb(255,255,255);
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.span-me{
+  color: rgba(255, 36, 36, 0.7);
+  text-shadow: 0 0 15px rgba(255, 36, 36, 0.7);
+}
+
+.contact-sec h3{
+  text-align: center;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 1vh 0;
+}
+
+.get-span{
+  color: rgba(255, 36, 36, 0.7);
+}
+
+
+
+.contact-div{
+  margin: 20vh 0;
+}
+
+.contact-info{
+  background-image: url(Images/contact-info-banner.svg);
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-size: contain;
+}
