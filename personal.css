@@ -197,8 +197,7 @@ nav{
 }
 
 .nav-items li:hover{
-  color: rgb(255, 36, 36);
-  text-shadow: 2px 2px 25px rgb(255, 36, 36);
+  color: rgb(220, 20, 60);
 }
 
 .nav-items a{
@@ -232,8 +231,7 @@ nav{
 }
 
 .marius{
-  color: rgb(137, 207, 240);
-  /* text-shadow: 0 0 25px rgb(255, 36, 36); */
+  color: rgb(220, 20, 60);
 }
 
 .write-up_sec h2{
@@ -243,8 +241,7 @@ nav{
 }
 
 .auto-type{
-  color: rgb(137, 207, 240);
-  /* text-shadow: 0 0 25px rgb(255, 36, 36); */
+  color: rgb(220, 20, 60);
 }
 
 .write-up_sec p{
