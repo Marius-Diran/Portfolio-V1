@@ -197,7 +197,7 @@ nav{
 }
 
 .nav-items li:hover{
-  color: rgb(220, 20, 60);
+  color: rgb(80, 200, 120);
 }
 
 .nav-items a{
@@ -310,10 +310,10 @@ nav{
 
 .home-img{
   width: 100%;
-  box-shadow: 0 0 10px rgb(255, 36, 36);
+  box-shadow: 0 0 10px rgb(220, 20, 60);
   transition: all 0.4s ease-in-out;
 }
 
 .home-img:hover{
-  box-shadow: 0 0 30px rgb(255, 36, 36);
+  box-shadow: 0 0 20px rgb(220, 20, 60);
 }
