@@ -9,20 +9,20 @@
 }
 
 ::-webkit-scrollbar{
-  width: 6px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track{
-  background: rgba(255, 84, 84, 0.1);
+  background: rgba(13, 13, 13, 0.1);
 }
 
 ::-webkit-scrollbar-thumb{
-  background: rgb(255, 36, 36);
+  background: rgb(227, 38, 54);
   border-radius: 10px;
 }
 
 body{
-  background-color: rgb(28, 28, 34);
+  background-color: rgb(13, 13, 13);
   font-family: 'JetBrains Mono', monospace;
 }
 
@@ -35,7 +35,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 247, 247);
+  background-color: rgb(211, 211, 211);
   z-index: 120;
   transition: opacity 5s, visibility 5s;
 }
@@ -49,9 +49,9 @@ body{
   content: "";
   width: 75px;
   height: 75px;
-  border: 15px solid rgb(221, 221, 221);
-  border-top-color: rgb(255, 36, 36);
-  box-shadow: 0 0 25px rgb(255, 36, 36);
+  border: 15px solid rgb(211, 211, 211);
+  border-top-color: rgb(227, 38, 54);
+  box-shadow: 0 0 25px rgb(227, 38, 54);
   border-radius: 50%;
   animation: loading 0.75s ease-out infinite;
 }
@@ -108,23 +108,23 @@ nav{
 
 .hamburger-menu:hover .bar1{
   width: 100%;
-  background-color: rgb(255, 36, 36);
+  background-color: rgb(227, 38, 54);
 }
 
 .hamburger-menu:hover .bar2{
   width: 100%;
-  background-color: rgb(255, 36, 36);
+  background-color: rgb(227, 38, 54);
 }
 
 .hamburger-menu:hover .bar3{
   width: 100%;
-  background-color: rgb(255, 36, 36);
+  background-color: rgb(227, 38, 54);
 }
 
 .bar1{
   width: 100%;
   height: 0.7vh;
-  background-color: rgb(255,255,255);
+  background-color: rgb(211, 211, 211);
   border-radius: 5px;
   transition: all 500ms ease;
 }
@@ -132,7 +132,7 @@ nav{
 .bar2{
   width: 60%;
   height: 0.7vh;
-  background-color: rgb(255,255,255);
+  background-color: rgb(211, 211, 211);
   border-radius: 5px;
   transition: all 500ms ease;
 }
@@ -140,7 +140,7 @@ nav{
 .bar3{
   width: 30%;
   height: 0.7vh;
-  background-color: rgb(255,255,255);
+  background-color: rgb(211, 211, 211);
   border-radius: 5px;
   transition: all 500ms ease;
 }
@@ -169,13 +169,13 @@ nav{
   top: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(28, 28, 34, 0.5);
+  background-color: rgba(13, 13, 13, 0.5);
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
   transition: all .8s ease-in-out;
   transform: translateY(-100%);
   visibility: hidden;
-  color: rgb(255,255,255);
+  color: rgb(211, 211, 211);
   z-index: 50;
 }
 
@@ -185,7 +185,7 @@ nav{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: rgb(255,255,255);
+  color: rgb(211, 211, 211);
   list-style: none;
 }
 
@@ -193,13 +193,12 @@ nav{
   font-size: 2rem;
   margin: 1.5vh auto;
   cursor: pointer;
-  color: rgba(255,255,255,0.6);
+  color: rgba(211, 211, 211, 0.6);
   transition: all 350ms ease-out;
 }
 
 .nav-items li:hover{
-  color: rgb(255, 36, 36);
-  text-shadow: 2px 2px 25px rgb(255, 36, 36);
+  color: rgb(227, 38, 54);
 }
 
 .nav-items a{
@@ -216,25 +215,24 @@ nav{
 }
 
 .contact-sec h1{
-  color: rgb(255,255,255);
+  color: rgb(211, 211, 211);
   text-align: center;
   font-size: 2.5rem;
 }
 
 .span-me{
-  color: rgba(255, 36, 36, 0.7);
-  text-shadow: 0 0 15px rgba(255, 36, 36, 0.7);
+  color: rgb(227, 38, 54);
 }
 
 .contact-sec h3{
   text-align: center;
   font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(211, 211, 211);
   margin: 1vh 0;
 }
 
 .get-span{
-  color: rgba(255, 36, 36, 0.7);
+  color: rgb(227, 38, 54);
 }
 
 .contact-flex{
@@ -251,7 +249,7 @@ nav{
 .contact-div h2{
   text-align: center;
   margin: 8vh 0 0;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(211, 211, 211);
   font-size: 2rem;
 }
 
@@ -269,7 +267,7 @@ nav{
   border-radius: 10px;
   border: none;
   background-color: rgb(0, 0, 0);
-  color: rgb(255,255,255);
+  color: rgb(211, 211, 211);
   padding-left: 2vw;
   font-size: 1rem;
 }
@@ -280,7 +278,7 @@ nav{
   border-radius: 10px;
   border: none;
   background-color: rgb(0, 0, 0);
-  color: rgb(255,255,255);
+  color: rgb(211, 211, 211);
   padding-left: 2vw;
   padding-top: 2vh;
   font-size: 1rem;
@@ -294,8 +292,8 @@ nav{
   height: 6vh;
   font-size: 1rem;
   font-weight: 700;
-  color: rgb(255,255,255);
-  background-color: rgba(255, 36, 36, 0.7);
+  color: rgb(211, 211, 211);
+  background-color: rgba(227, 38, 54, 0.7);
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -303,15 +301,15 @@ nav{
 }
 
 .submit-btn:hover{
-  background-color: rgb(255, 36, 36);
+  background-color: rgb(227, 38, 54);
 }
 
 .contact-input:focus{
-  border: 2px solid rgba(255, 36, 36, 0.7);
+  border: 2px solid rgba(227, 38, 54, 0.7);
 }
 
 .contact-text:focus{
-  border: 2px solid rgba(255, 36, 36, 0.7);
+  border: 2px solid rgba(227, 38, 54, 0.7);
 }
 
 .contact-info{
@@ -339,13 +337,13 @@ nav{
 .info-mini_div h1{
   margin: 0 7vw 0 0;
   font-size: 1.6rem;
-  color: rgb(255,255,255);
+  color: rgb(211, 211, 211);
 }
 
 .info-mini_div h2{
   margin: 0 0 0 2vw;
   font-size: 1.4rem;
-  color: rgb(255,255,255);
+  color: rgb(211, 211, 211);
 }
 
 .email-info{
@@ -362,17 +360,17 @@ nav{
 .email-mini_div h1{
   margin: 0 11.8vw 0 0;
   font-size: 1.6rem;
-  color: rgb(255,255,255);
+  color: rgb(211, 211, 211);
 }
 
 .email-mini_div h2{
   margin: 0 0 0 2vw;
   font-size: 1.4rem;
-  color: rgb(255,255,255);
+  color: rgb(211, 211, 211);
 }
 
 .footer{
-  background-color: rgba(255, 36, 36, 0.5);
+  background-color: rgb(227, 38, 54);
   height: 10vh;
   font-family: "Shippori Antique", sans-serif;
   text-align: center;
@@ -382,5 +380,5 @@ nav{
   font-size: 1.2rem;
   padding: 4vh 0 0;
   font-weight: 300;
-  color: rgba(255,255,255, 0.7);
+  color: rgb(211, 211, 211);
 }
