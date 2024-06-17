@@ -280,10 +280,12 @@ nav{
   background-color: rgb(0, 0, 0);
   color: rgb(211, 211, 211);
   padding-left: 2vw;
+  padding-right: 2vw;
   padding-top: 2vh;
   font-size: 1rem;
   outline: none;
   resize: none;
+  line-height: 3.2vh;
 }
 
 .submit-btn{
