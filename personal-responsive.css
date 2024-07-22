@@ -1,0 +1,14 @@
+@media(max-width: 500px){
+  nav{
+    margin: 4vh 3vw;
+  }
+
+  .logo-container{
+    width: 15%;
+  }
+
+  .hamburger-menu{
+    width: 8%;
+    margin: 0 3vw 0 0;
+  }
+}
