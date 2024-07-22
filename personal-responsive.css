@@ -16,6 +16,33 @@
     flex-direction: column;
   }
 
+  .write-up_sec{
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .write-up_sec h1{
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .marius{
+    display: block;
+    margin: 1vh 0;
+  }
+
+  .write-up_sec h2{
+    margin: 5vh 4vw;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .write-up_sec p{
+    width: 90%;
+    margin: 5vh 2vw;
+    text-align: center;
+  }
+
   .img-sec{
     width: 100%;
     order: -1;
