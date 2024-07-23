@@ -53,6 +53,18 @@
     margin: 0 auto;
   }
 
+  .social-icons{
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  .contact-btn{
+    margin: 7vh 23vw 5vh;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(227, 38, 54);
+  }
+
   .home-img{
     box-shadow: none;
   }
