@@ -25,4 +25,34 @@
   .aboutme-container{
     display: block;
   }
+
+  .aboutme-writeup{
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .aboutme-writeup h1{
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .aboutme-writeup .p-1{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .aboutme-writeup .p-2{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .aboutme-writeup .p-3{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .my-avatar{
+    width: 80%;
+    margin: 10vh auto;
+  }
 }

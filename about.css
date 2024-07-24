@@ -51,7 +51,6 @@ body{
   height: 75px;
   border: 15px solid rgb(211, 211, 211);
   border-top-color: rgb(227, 38, 54);
-  box-shadow: 0 0 25px rgb(227, 38, 54);
   border-radius: 50%;
   animation: loading 0.75s ease-out infinite;
 }
