@@ -88,4 +88,52 @@
     width: 96%;
     margin: 6vh auto 0;
   }
+
+  .my-skills h1{
+    font-size: 1.8rem;
+  }
+
+  .myskill-grid{
+    display: block;
+  }
+
+  .progress-bar{
+    width: 96%;
+    margin: 3vh auto;
+  }
+
+  .skill-1 h5{
+    font-size: 1rem;
+    margin: 0 0 0 40vw;
+  }
+
+  .skill-2 h5{
+    font-size: 1rem;
+    margin: 0 0 0 38vw;
+  }
+
+  .skill-3 h5{
+    font-size: 1rem;
+    margin: 0 0 0 36vw;
+  }
+
+  .skill-4 h5{
+    font-size: 1rem;
+    margin: 0 0 0 38vw;
+  }
+
+  .skill-5 h5{
+    font-size: 1rem;
+    margin: 0 0 0 47vw;
+  }
+
+  .footer{
+    height: 7.5vh;
+    margin: 15vh auto 0;
+  }
+
+  .footer-contents h1{
+    font-size: 1rem;
+    padding: 2.2vh 0;
+  }
 }
