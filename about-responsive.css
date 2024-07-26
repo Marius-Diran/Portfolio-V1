@@ -12,10 +12,6 @@
     margin: 0 7vw 0 0;
   }
 
-  .about-me_sec{
-    border: 1px solid green;
-  }
-
   .intro-text{
     text-align: center;
     font-size: 2rem;
@@ -28,7 +24,6 @@
 
   .aboutme-container{
     display: block;
-    border: 1px solid yellow;
   }
 
   .aboutme-writeup{
