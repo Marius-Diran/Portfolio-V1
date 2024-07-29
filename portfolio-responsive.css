@@ -11,4 +11,43 @@
     width: 10%;
     margin: 0 3vw 0 0;
   }
+
+  .portfolio-contents h1{
+    font-size: 1.5rem;
+    margin: 3vh 0 2vh;
+  }
+
+  .portfolio-contents h3{
+    font-size: 1rem;
+  }
+
+  .project-1{
+    display: block;
+  }
+
+  .project1-imgbox{
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .project1-writeup{
+    width: 96%;
+    margin: 1vh auto;
+  }
+
+  .project1-writeup h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5vh 0 0;
+  }
+
+  .project1-writeup p{
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 5vh auto 0;
+  }
+
+  .project1-btn{
+    margin: 5vh 0 0 38vw;
+  }
 }
