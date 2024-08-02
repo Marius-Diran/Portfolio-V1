@@ -325,7 +325,7 @@ nav{
 .project2-writeup p{
   color: rgb(211, 211, 211);
   margin: 4vh 0 0 3vw;
-  width: 85%;
+  /* width: 85%; */
 }
 
 .project2-btn{
