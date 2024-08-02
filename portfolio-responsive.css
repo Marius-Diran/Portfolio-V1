@@ -25,12 +25,12 @@
     display: block;
   }
 
-  .project1-imgbox{
+  .project1-imgbox, .project2-imgbox, .project3-imgbox, .project4-imgbox, .project5-imgbox, .project6-imgbox, .project7-imgbox{
     width: 96%;
     margin: 0 auto;
   }
 
-  .project1-writeup{
+  .project1-writeup, .project2-writeup, .project3-writeup, .project4-writeup, .project5-writeup, .project6-writeup, .project7-writeup{
     width: 96%;
     margin: 1vh auto;
   }
@@ -45,6 +45,42 @@
     text-align: center;
     font-size: 1.1rem;
     margin: 5vh auto 0;
+  }
+
+  .project2-writeup h1{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 5vh 0 0;
+  }
+
+  .project3-writeup h1{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 5vh 0 0;
+  }
+
+  .project4-writeup h1{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 5vh 0 0;
+  }
+
+  .project5-writeup h1{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 5vh 0 0;
+  }
+
+  .project6-writeup h1{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 5vh 0 0;
+  }
+
+  .project7-writeup h1{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 5vh 0 0;
   }
 
   .project1-btn, .project2-btn{
