@@ -47,6 +47,10 @@
     margin: 5vh auto 0;
   }
 
+  .project2-writeup{
+    height: 46vh;
+  }
+
   .project2-writeup h1{
     text-align: center;
     font-size: 1.6rem;
@@ -56,12 +60,25 @@
   .project2-writeup p{
     text-align: center;
     font-size: 1.1rem;
+    padding: 5vh auto 0;
+    width: 95%;
+  }
+
+  .project3-writeup{
+    height: 53vh;
   }
 
   .project3-writeup h1{
     text-align: center;
     font-size: 1.6rem;
     padding: 5vh 0 0;
+  }
+
+  .project3-writeup p{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 5vh auto 0;
+    width: 95%;
   }
 
   .project4-writeup h1{
@@ -88,7 +105,7 @@
     padding: 5vh 0 0;
   }
 
-  .project1-btn, .project2-btn{
+  .project1-btn, .project2-btn, .project3-btn{
     margin: 5vh 0 0 38vw;
   }
 }
