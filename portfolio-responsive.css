@@ -53,6 +53,11 @@
     padding: 5vh 0 0;
   }
 
+  .project2-writeup p{
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
   .project3-writeup h1{
     text-align: center;
     font-size: 1.6rem;
