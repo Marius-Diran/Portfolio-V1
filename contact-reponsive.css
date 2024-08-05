@@ -12,4 +12,39 @@
     margin: 0 3vw 0 0;
   }
 
+  .contact-flex{
+    display: block;
+  }
+
+  .contact-sec h1{
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .contact-div{
+    width: 95%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    height: fit-content;
+  }
+
+  .contact-div h2{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .contact-form{
+    display: block;
+  }
+
+  .contact-input{
+    width: 100%;
+    margin: 3vh auto;
+  }
+
+  .contact-text{
+    width: 100%;
+    height: 20vh;
+    margin: 4vh auto;
+  }
 }
