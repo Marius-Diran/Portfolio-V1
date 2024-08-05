@@ -47,4 +47,55 @@
     height: 20vh;
     margin: 4vh auto;
   }
+
+  .submit-btn{
+    width: 50%;
+    margin: 2vh 23vw;
+  }
+
+  .contact-info{
+    width: 95%;
+    margin: 3vh auto;
+    border-radius: 5px;
+  }
+
+  .name-info{
+    width: 85%;
+  }
+
+  .fa-user{
+    font-size: 3rem;
+    margin: 15vh 0;
+  }
+
+  .info-mini_div h1{
+    margin: 14vh 27vw 0 0;
+    font-size: 1.5rem;
+  }
+  
+  .info-mini_div h2{
+    margin: 0 0 0 5vw;
+    font-size: 1.4rem;
+  }
+
+  .email-info{
+    width: 85%;
+  }
+
+  .fa-at{
+    font-size: 3rem;
+    margin: -6vh 0 0;
+  }
+
+  .email-mini_div h1{
+    margin: -6.5vh 56vw 0 0;
+    font-size: 1.6rem;
+    color: rgb(211, 211, 211);
+  }
+  
+  .email-mini_div h2{
+    margin: 0 0 0 2vw;
+    font-size: 1.4rem;
+    color: rgb(211, 211, 211);
+  }
 }
