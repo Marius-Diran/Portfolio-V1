@@ -12,6 +12,10 @@
     margin: 0 3vw 0 0;
   }
 
+  .contact-sec{
+    border: 1px solid red;
+  }
+
   .contact-flex{
     display: block;
   }
@@ -88,14 +92,18 @@
   }
 
   .email-mini_div h1{
-    margin: -6.5vh 56vw 0 0;
-    font-size: 1.6rem;
+    margin: -6.5vh 51vw 0 0;
+    font-size: 1.5rem;
     color: rgb(211, 211, 211);
   }
   
   .email-mini_div h2{
-    margin: 0 0 0 2vw;
-    font-size: 1.4rem;
+    margin: 1vh 0 0 2vw;
+    font-size: 1.2rem;
     color: rgb(211, 211, 211);
+  }
+
+  .footer{
+
   }
 }
